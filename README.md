@@ -1,8 +1,9 @@
 # gifted-firechat
 a messaging app using gifted chat api
-using gifted chat it has a fully built chat layout 
+using gifted chat streamlined the chat interface 
 has a backend supplyied by firebase and can log in using email and password 
-facebook authentication would not work 
+facebook authentication would not work so that is why it uses email and password
+tried to use google as well 
 Unfortunately the app would fail when using the update or delete functions 
 the app uses a stack navigator to swap screens 
 the app assigns a random profile pic 
