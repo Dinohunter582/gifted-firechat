@@ -82,11 +82,9 @@ export default function Chat({ navigation }) {
   // showing sent/stored messages
   return (
     <GiftedChat
-
       messages={messages}
       showAvatarForEveryMessage={true}
       onSend={messages => onSend(messages)}
-
       user={{
         _id: auth?.currentUser?.email,
         avatar: 'https://i.pravatar.cc/300'
